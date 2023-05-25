@@ -20,3 +20,4 @@ class PathParser:
                         pass
                     else:
                         self.paths[line_elements[0]] = line_elements[1]
+
