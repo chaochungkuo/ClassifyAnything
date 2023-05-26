@@ -20,11 +20,18 @@ SplitAnything is a flexible tool designed to help you classify or cluster any ty
    - Implement various feature selection methods, if necessary (univariate statistical tests, recursive feature elimination, model-based selection, feature extraction methods for dimensionality reduction, etc.)
 
 4. **Data Splitting**
-   - If dealing with supervised or semi-supervised learning, split the normalized data into training and test sets (e.g., 80% training, 20% test)
+   - If dealing with supervised or semi-supervised learning, split the normalized data into training and test sets (e.g., 70% training, 15% validating, and 15% testing)
 
 5. **Model Training**
    - For unsupervised learning:
-     - Implement clustering algorithms (e.g., K-means, hierarchical clustering, DBSCAN, etc.) or dimensionality reduction techniques (PCA, t-SNE, UMAP, etc.)
+     - Implement clustering algorithms 
+       - K-means
+       - hierarchical clustering
+       - DBSCAN
+     - Dimensional reduction techniques
+       - PCA
+       - t-SNE
+       - UMAP
      - If applicable, interpret and label clusters
    - For supervised and semi-supervised learning:
      - Implement various machine learning models such as:
