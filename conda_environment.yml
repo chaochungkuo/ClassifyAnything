@@ -4,8 +4,8 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1
-  - _openmp_mutex=4.5
+  # - _libgcc_mutex=0.1
+  # - _openmp_mutex=4.5
   - asttokens=2.2.1
   - backcall=0.2.0
   - backports=1.0
@@ -40,9 +40,9 @@ dependencies:
   - jsonpointer=2.0
   - jupyter_client=8.2.0
   - jupyter_core=5.3.1
-  - keyutils=1.6.1
+  # - keyutils=1.6.1
   - krb5=1.20.1
-  - ld_impl_linux-64=2.40
+  # - ld_impl_linux-64=2.40
   - libarchive=3.6.2
   - libblas=3.9.0
   - libbrotlicommon=1.0.9
@@ -53,22 +53,22 @@ dependencies:
   - libedit=3.1.20191231
   - libev=4.33
   - libffi=3.4.2
-  - libgcc-ng=13.1.0
-  - libgfortran-ng=13.1.0
-  - libgfortran5=13.1.0
-  - libgomp=13.1.0
+  # - libgcc-ng=13.1.0
+  # - libgfortran-ng=13.1.0
+  # - libgfortran5=13.1.0
+  # - libgomp=13.1.0
   - libiconv=1.17
   - liblapack=3.9.0
   - libmamba=1.4.4
   - libmambapy=1.4.4
   - libnghttp2=1.52.0
-  - libnsl=2.0.0
+  # - libnsl=2.0.0
   - libopenblas=0.3.23
   - libsodium=1.0.18
   - libsolv=0.7.24
   - libsqlite=3.42.0
   - libssh2=1.11.0
-  - libstdcxx-ng=13.1.0
+  # - libstdcxx-ng=13.1.0
   - libuuid=2.38.1
   - libxml2=2.11.4
   - libzlib=1.2.13
