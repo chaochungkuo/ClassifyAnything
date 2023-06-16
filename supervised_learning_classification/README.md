@@ -8,12 +8,11 @@
         - Handling categorical variables (encoding, one-hot encoding, etc.)
         - Feature scaling or normalization
 
-3. Splitting the Dataset
+2. Splitting the Dataset
     - Split the dataset into training and test sets
-    - Discuss the importance of this step in evaluating model performance
-    - Considerations for the size of the training and test sets (e.g., 80-20 split)
 
-4. Model Selection and Training
+3. Model Selection and Training
+    - k-fold validation for fine-tuning hyperparameters of each model.
     - Choose an appropriate supervised learning algorithm for your task (e.g., linear regression, decision trees, support vector machines)
     - Explain the selected model and its key characteristics
     - Fit the model to the training data using the `fit()` function or equivalent
