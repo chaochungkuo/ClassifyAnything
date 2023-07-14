@@ -1,6 +1,14 @@
 import plotly.graph_objects as go
 import plotly.figure_factory as ff
 
+import plotly.express as px
+
+def generate_3DPCA(target_df, title, x_label, y_label, z_label):
+    
+    fig = px.scatter_3d(df, x='sepal_length', y='sepal_width', z='petal_width',
+                color='species')
+    fig.show()
+
 def generate_hp(target_df, hp_title):
     rowlabels = target_df.index.tolist()
     collabels = target_df.columns.tolist()
