@@ -58,6 +58,7 @@ conda env create -n ClassifyAnything -f conda_environment.yml
    - Random forests are known for their robustness and ability to handle high-dimensional data.
 
 #### 3-4. Support Vector Machines (SVM):
+[03-04_SVM.ipynb](03-04_SVM.ipynb)
    - SVMs find an optimal hyperplane that separates different classes by maximizing the margin between them.
    - They can handle linear and non-linear classification tasks by using different kernel functions.
    - SVMs work well with both small and large datasets and are effective in high-dimensional spaces.
