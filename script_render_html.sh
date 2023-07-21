@@ -5,4 +5,5 @@ jupyter nbconvert --to html --output-dir=reports 03_Model_selection.ipynb
 jupyter nbconvert --to html --output-dir=reports 03-01_Logistic_Regression.ipynb
 jupyter nbconvert --to html --output-dir=reports 03-02_Decision_Trees.ipynb
 jupyter nbconvert --to html --output-dir=reports 03-03_Random_Forest.ipynb
+jupyter nbconvert --to html --output-dir=reports 03-04_SVM.ipynb
 jupyter nbconvert --to html --output-dir=reports 04_Model_Evaluation.ipynb
