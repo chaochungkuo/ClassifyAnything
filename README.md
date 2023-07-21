@@ -26,12 +26,13 @@ conda env create -n ClassifyAnything -f conda_environment.yml
     - Explore the dataset
     - Perform necessary data preprocessing steps, such as:
         - Handling missing values
-        - Handling categorical variables (encoding, one-hot encoding, etc.)
+        - Handling outliers
         - Feature scaling or normalization
 
 ### 2. Feature Selection
 [02_Feature_selection.ipynb](02_Feature_selection.ipynb)
-    - 
+    - Removing features with low variance
+    - Univariate feature selection
 
 ### 3. Model Selection and Training
 [03_Model_selection.ipynb](03_Model_selection.ipynb)
@@ -51,6 +52,7 @@ conda env create -n ClassifyAnything -f conda_environment.yml
    - They are intuitive and easy to interpret, as they represent a flowchart-like structure of if-else decision rules.
 
 #### 3-3. Random Forests:
+[03-03_Random_Forest.ipynb](03-03_Random_Forest.ipynb)
    - Random forests are an ensemble learning method that combines multiple decision trees to make predictions.
    - They create a set of decision trees using random subsets of features and average the predictions from individual trees to obtain the final prediction.
    - Random forests are known for their robustness and ability to handle high-dimensional data.
